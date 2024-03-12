@@ -52,7 +52,7 @@ M.complete = function()
   set_loading(true)
 
   Api.completions({
-    model = "gpt-3.5-turbo-instruct",
+    model = "mixtral-8x7b-32768",
     prompt = prefix,
     suffix = suffix,
     max_tokens = 2048,
