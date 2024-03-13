@@ -5,7 +5,7 @@
       "template": "Complete the following code written in {{lang}} by pasting the existing code and continuing it.\n\nExisting code:\n```{{filetype}}\n{{input}}\n```\n\n```{{filetype}}\n",
       "strategy": "replace",
       "params": {
-        "model": "mixtral-8x7b-32768",
+        "model": "mixtral-8x7b-32768"
       }
     }
   },
@@ -62,7 +62,7 @@
       "template": "# An elaborate, high quality docstring for the above function:\n# Writing a good docstring\n\nThis is an example of writing a really good docstring that follows a best practice for the given language. Attention is paid to detailing things like\n* parameter and return types (if applicable)\n* any errors that might be raised or returned, depending on the language\n\nI received the following code:\n\n```{{filetype}}\n{{input}}\n```\n\nThe code with a really good docstring added is below:\n\n```{{filetype}}",
       "strategy": "edit",
       "params": {
-        "model": "mixtral-8x7b-32768",
+        "model": "mixtral-8x7b-32768"
       }
     }
   },
@@ -72,7 +72,7 @@
       "template": "Implement tests for the following code.\n\nCode:\n```{{filetype}}\n{{input}}\n```\n\nTests:\n```{{filetype}}",
       "strategy": "append",
       "params": {
-        "model": "mixtral-8x7b-32768",
+        "model": "mixtral-8x7b-32768"
       }
     }
   },
@@ -82,7 +82,7 @@
       "template": "Optimize the following code.\n\nCode:\n```{{filetype}}\n{{input}}\n```\n\nOptimized version:\n```{{filetype}}",
       "strategy": "edit",
       "params": {
-        "model": "mixtral-8x7b-32768",
+        "model": "mixtral-8x7b-32768"
       }
     }
   },
@@ -102,7 +102,7 @@
       "template": "Fix bugs in the below code\n\nCode:\n```{{filetype}}\n{{input}}\n```\n\nFixed code:\n```{{filetype}}",
       "strategy": "edit",
       "params": {
-        "model": "mixtral-8x7b-32768",
+        "model": "mixtral-8x7b-32768"
       }
     }
   },
