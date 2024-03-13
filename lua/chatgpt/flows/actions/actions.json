@@ -6,9 +6,6 @@
       "strategy": "replace",
       "params": {
         "model": "mixtral-8x7b-32768",
-        "stop": [
-          "```"
-        ]
       }
     }
   },
@@ -66,9 +63,6 @@
       "strategy": "edit",
       "params": {
         "model": "mixtral-8x7b-32768",
-        "stop": [
-          "```"
-        ]
       }
     }
   },
@@ -79,9 +73,6 @@
       "strategy": "append",
       "params": {
         "model": "mixtral-8x7b-32768",
-        "stop": [
-          "```"
-        ]
       }
     }
   },
@@ -92,9 +83,6 @@
       "strategy": "edit",
       "params": {
         "model": "mixtral-8x7b-32768",
-        "stop": [
-          "```"
-        ]
       }
     }
   },
@@ -115,9 +103,6 @@
       "strategy": "edit",
       "params": {
         "model": "mixtral-8x7b-32768",
-        "stop": [
-          "```"
-        ]
       }
     }
   },
